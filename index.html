@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <!-- //DOM - Document Object Model
+    o reprezentare sub firma de obiect de javascritp
+care rep ierarhia si structura elementelor de html -->
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="script/main.js" defer></script>
+    <!-- defer - inseamna lasa pe urma -->
+  </head>
+  <body>
+    <!-- atribute -->
+    <h1 data-heading="dasdas">Counter</h1>
+    <p><output data-counter-display="display">0</output></p>
+    <p>
+      <button data-counter-button="decrement">-5</button>
+      <button data-counter-button="decrement" class="negative">-</button>
+      <button data-counter-button="reset">Reset</button>
+      <button data-counter-button="increment" class="positive">+</button>
+      <button data-counter-button="increment">+5</button>
+    </p>
+  </body>
+</html>
